@@ -12,6 +12,7 @@ function Navbar() {
                 <ul className='navbar-nav'>
                     <li className='nav-item'><NavLink activeClassName={'active'} to="/counter" className='nav-link'>Counter</NavLink></li>
                     <li className='nav-item'><NavLink activeClassName={'active'} to="/input" className='nav-link'>Input</NavLink></li>
+                    <li className='nav-item'><NavLink activeClassName={'active'} to="/users" className='nav-link'>Users Server</NavLink></li>
                 </ul>
             </div>
 
